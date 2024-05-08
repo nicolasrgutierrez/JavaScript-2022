@@ -1,12 +1,12 @@
 // Define number values
 let num1 = 6;
 let num2 = -1000000;
-let num3 = 1.234567;
+let num3 = 1.234567
 
 // Defining big and small numbers
-let num4 = 1560000000000000000000;
+let num4 = 1560000000000000000000000;
 console.log(num4);
-let num5 = -0.0000000000000000021;
+let num5 = -0.0000000000000000000021;
 console.log(num5);
 
 // Creating numbers with e-notation
@@ -20,5 +20,5 @@ console.log(`Maximum Value: ${Number.MAX_VALUE}`);
 console.log(`Maximum Safe Integer: ${Number.MAX_SAFE_INTEGER}`);
 
 // Creating BigInt's
-let bigInt1 = 1n;
-let bigInt2 = 1_560_000_000_000_000_000_000n;
+let BigInt1 = 1n;
+let BigInt2 = 1_560_000_000_000_000_000_000n;
