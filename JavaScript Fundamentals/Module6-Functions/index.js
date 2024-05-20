@@ -1,8 +1,11 @@
-// Import Sample Data
-import employees from './data.json' assert { type: 'json' };
+//Import Sample Data
+import employees from './data.json' with { type: 'json'}
 
 import createPrompt from 'prompt-sync';
 let prompt = createPrompt();
+
+// console.log(process.argv);
+// process.exit(0);
 
 // Get the command the user wants to exexcute
 const command = process.argv[2].toLowerCase();
@@ -102,6 +105,3 @@ switch (command) {
     process.exit(1);
 
 }
-
-
-
