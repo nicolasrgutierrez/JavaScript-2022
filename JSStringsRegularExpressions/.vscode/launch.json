@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/_6challenge.js"
+            "program": "${workspaceFolder}/StringAPI/_7challenge.js"
         }
     ]
 }
